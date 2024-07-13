@@ -1,0 +1,2 @@
+file-loader:
+  file-to-process-path: C:\Projects\large-file-reading-challenge\src\test\resources\test_file.csv

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: large-file-reading-challenge
+
+file-loader:
+  file-to-process-path: C:\Projects\large-file-reading-challenge\src\main\resources\example_file.csv
+  check-for-file-changes-interval-ms: 1000
+
+csv-file-processor:
+  number-of-threads: 16000 # High number of threads for maximum I/O throughput, compensating for disk operation wait times
+  buffer-size: 4096
